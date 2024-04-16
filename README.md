@@ -1,13 +1,13 @@
-### Air_Canvas_Project ###
+# Air_Canvas_Project
  
 This is an innovative project that brings the magic of digital art to the physical world. 
 Using computer vision and ML, Air Canvas allows users to create stunning artwork simply by moving their hands in the air.
 
 
-# Requirements: 
+### Requirements: 
 python3 , numpy , opencv, mediapipe
 
-# Algorithm:
+### Algorithm:
 1. Read the frames and convert the captured frames to HSV colour space(easy for colour detection)
 2. Prepare the canvas frame and put the respective ink buttons on it
 3. Adjust the values of the mediapipe intilization to detect one hand only(to avoid confusion)
@@ -15,7 +15,7 @@ python3 , numpy , opencv, mediapipe
 5. Detect the landmarks, find the index finger coordinates and store them in arrays for successive frames
 6. Finally draw the points stored in array on the frames and canvas
 
-# Usage:
+### Usage:
 1. Clone the Repository
    ```
       git clone https://github.com/eizadhamdan/Air_Canvas_Project.git
