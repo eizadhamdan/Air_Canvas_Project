@@ -1,4 +1,4 @@
-## Air_Canvas_Project
+### Air_Canvas_Project ###
  
 This is an innovative project that brings the magic of digital art to the physical world. 
 Using computer vision and ML, Air Canvas allows users to create stunning artwork simply by moving their hands in the air.
